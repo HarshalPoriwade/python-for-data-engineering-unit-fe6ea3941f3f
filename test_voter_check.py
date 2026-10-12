@@ -2,7 +2,8 @@ import os
 import subprocess
 import sys
 import unittest
-HERE=os.path.dirname(os.path.abspath(__file__))
+
+HERE = os.path.dirname(os.path.abspath(__file__))
 SCRIPT = os.path.join(HERE, "voter_check.py")
 
 

@@ -1,7 +1,7 @@
 # One voter at the polling station
-age=17
-is_citizen=True
-voter_id="1001"
+age = 17
+is_citizen = True
+voter_id = 1001
 
 print("Voter ID:", voter_id)
 print("Age:", age)
@@ -18,10 +18,10 @@ else:
 print("---")
 
 # Three more voters in line, all citizens
-ages=[17,18,70]
+ages = [17, 18, 70]
 for voter_age in ages:
-    print("Age",voter_age)
-    if voter_age>=65 and is_citizen:
+    print("Age:", voter_age)
+    if voter_age >= 65 and is_citizen:
         print("Eligible")
         print("Senior")
     elif voter_age >= 18 and is_citizen:
@@ -30,6 +30,7 @@ for voter_age in ages:
     else:
         print("Not eligible")
         print("Cannot vote")
+
 print("---")
 
 # Countdown to closing time
